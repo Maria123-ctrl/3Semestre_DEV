@@ -1,0 +1,14 @@
+C:\Users\43180121823\Desktop\3S_DEV\Revisão de POO\Exercicio5\obj\Debug\net10.0\Exercicio5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\43180121823\Desktop\3S_DEV\Revisão de POO\Exercicio5\obj\Debug\net10.0\Exercicio5.AssemblyInfoInputs.cache
+C:\Users\43180121823\Desktop\3S_DEV\Revisão de POO\Exercicio5\obj\Debug\net10.0\Exercicio5.AssemblyInfo.cs
+C:\Users\43180121823\Desktop\3S_DEV\Revisão de POO\Exercicio5\obj\Debug\net10.0\Exercicio5.csproj.CoreCompileInputs.cache
+C:\Users\43180121823\Desktop\3S_DEV\Revisão de POO\Exercicio5\bin\Debug\net10.0\Exercicio5.exe
+C:\Users\43180121823\Desktop\3S_DEV\Revisão de POO\Exercicio5\bin\Debug\net10.0\Exercicio5.deps.json
+C:\Users\43180121823\Desktop\3S_DEV\Revisão de POO\Exercicio5\bin\Debug\net10.0\Exercicio5.runtimeconfig.json
+C:\Users\43180121823\Desktop\3S_DEV\Revisão de POO\Exercicio5\bin\Debug\net10.0\Exercicio5.dll
+C:\Users\43180121823\Desktop\3S_DEV\Revisão de POO\Exercicio5\bin\Debug\net10.0\Exercicio5.pdb
+C:\Users\43180121823\Desktop\3S_DEV\Revisão de POO\Exercicio5\obj\Debug\net10.0\Exercicio5.dll
+C:\Users\43180121823\Desktop\3S_DEV\Revisão de POO\Exercicio5\obj\Debug\net10.0\refint\Exercicio5.dll
+C:\Users\43180121823\Desktop\3S_DEV\Revisão de POO\Exercicio5\obj\Debug\net10.0\Exercicio5.pdb
+C:\Users\43180121823\Desktop\3S_DEV\Revisão de POO\Exercicio5\obj\Debug\net10.0\Exercicio5.genruntimeconfig.cache
+C:\Users\43180121823\Desktop\3S_DEV\Revisão de POO\Exercicio5\obj\Debug\net10.0\ref\Exercicio5.dll

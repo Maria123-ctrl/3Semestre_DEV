@@ -1,0 +1,14 @@
+C:\Users\43180121823\Desktop\3S_DEV\Revisão de POO\Exercicio7\bin\Debug\net10.0\Exercicio7.exe
+C:\Users\43180121823\Desktop\3S_DEV\Revisão de POO\Exercicio7\bin\Debug\net10.0\Exercicio7.deps.json
+C:\Users\43180121823\Desktop\3S_DEV\Revisão de POO\Exercicio7\bin\Debug\net10.0\Exercicio7.runtimeconfig.json
+C:\Users\43180121823\Desktop\3S_DEV\Revisão de POO\Exercicio7\bin\Debug\net10.0\Exercicio7.dll
+C:\Users\43180121823\Desktop\3S_DEV\Revisão de POO\Exercicio7\bin\Debug\net10.0\Exercicio7.pdb
+C:\Users\43180121823\Desktop\3S_DEV\Revisão de POO\Exercicio7\obj\Debug\net10.0\Exercicio7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\43180121823\Desktop\3S_DEV\Revisão de POO\Exercicio7\obj\Debug\net10.0\Exercicio7.AssemblyInfoInputs.cache
+C:\Users\43180121823\Desktop\3S_DEV\Revisão de POO\Exercicio7\obj\Debug\net10.0\Exercicio7.AssemblyInfo.cs
+C:\Users\43180121823\Desktop\3S_DEV\Revisão de POO\Exercicio7\obj\Debug\net10.0\Exercicio7.csproj.CoreCompileInputs.cache
+C:\Users\43180121823\Desktop\3S_DEV\Revisão de POO\Exercicio7\obj\Debug\net10.0\Exercicio7.dll
+C:\Users\43180121823\Desktop\3S_DEV\Revisão de POO\Exercicio7\obj\Debug\net10.0\refint\Exercicio7.dll
+C:\Users\43180121823\Desktop\3S_DEV\Revisão de POO\Exercicio7\obj\Debug\net10.0\Exercicio7.pdb
+C:\Users\43180121823\Desktop\3S_DEV\Revisão de POO\Exercicio7\obj\Debug\net10.0\Exercicio7.genruntimeconfig.cache
+C:\Users\43180121823\Desktop\3S_DEV\Revisão de POO\Exercicio7\obj\Debug\net10.0\ref\Exercicio7.dll

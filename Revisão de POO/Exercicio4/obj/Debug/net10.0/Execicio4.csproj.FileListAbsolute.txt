@@ -1,0 +1,14 @@
+C:\Users\43180121823\Desktop\3S_DEV\Revisão de POO\Execicio4\obj\Debug\net10.0\Execicio4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\43180121823\Desktop\3S_DEV\Revisão de POO\Execicio4\obj\Debug\net10.0\Execicio4.AssemblyInfoInputs.cache
+C:\Users\43180121823\Desktop\3S_DEV\Revisão de POO\Execicio4\obj\Debug\net10.0\Execicio4.AssemblyInfo.cs
+C:\Users\43180121823\Desktop\3S_DEV\Revisão de POO\Execicio4\obj\Debug\net10.0\Execicio4.csproj.CoreCompileInputs.cache
+C:\Users\43180121823\Desktop\3S_DEV\Revisão de POO\Execicio4\bin\Debug\net10.0\Execicio4.exe
+C:\Users\43180121823\Desktop\3S_DEV\Revisão de POO\Execicio4\bin\Debug\net10.0\Execicio4.deps.json
+C:\Users\43180121823\Desktop\3S_DEV\Revisão de POO\Execicio4\bin\Debug\net10.0\Execicio4.runtimeconfig.json
+C:\Users\43180121823\Desktop\3S_DEV\Revisão de POO\Execicio4\bin\Debug\net10.0\Execicio4.dll
+C:\Users\43180121823\Desktop\3S_DEV\Revisão de POO\Execicio4\bin\Debug\net10.0\Execicio4.pdb
+C:\Users\43180121823\Desktop\3S_DEV\Revisão de POO\Execicio4\obj\Debug\net10.0\Execicio4.dll
+C:\Users\43180121823\Desktop\3S_DEV\Revisão de POO\Execicio4\obj\Debug\net10.0\refint\Execicio4.dll
+C:\Users\43180121823\Desktop\3S_DEV\Revisão de POO\Execicio4\obj\Debug\net10.0\Execicio4.pdb
+C:\Users\43180121823\Desktop\3S_DEV\Revisão de POO\Execicio4\obj\Debug\net10.0\Execicio4.genruntimeconfig.cache
+C:\Users\43180121823\Desktop\3S_DEV\Revisão de POO\Execicio4\obj\Debug\net10.0\ref\Execicio4.dll

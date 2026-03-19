@@ -34,6 +34,7 @@ public partial class Usuario
 
     [ForeignKey("IdTipoUsuario")]
     [InverseProperty("Usuarios")]
+    [JsonIgnore]
     public virtual TipoUsuario? IdTipoUsuarioNavigation { get; set; }
 
     [InverseProperty("IdUsuarioNavigation")]

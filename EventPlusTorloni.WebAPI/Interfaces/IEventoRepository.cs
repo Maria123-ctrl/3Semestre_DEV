@@ -4,7 +4,7 @@ namespace EventPlusTorloni.WebAPI.Interfaces
 {
     public interface IEventoRepository
     {
-        void Cadstrar(Evento evento);
+        void Cadastrar(Evento evento);
         List<Evento> Listar();
 
         void Deletar(Guid IdEvento);

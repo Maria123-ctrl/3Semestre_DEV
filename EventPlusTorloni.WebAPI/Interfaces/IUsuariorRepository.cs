@@ -6,6 +6,6 @@ namespace EventPlusTorloni.WebAPI.Interfaces
     {
         void Cadastrar(Usuario usuario);
         Usuario BuscarPorId(Guid id);
-        Usuario BuscarPorEmailESenha(string Email, string Senha);
+        Usuario BuscarPorEmailESenha(string Email, string Senha, Guid IdTipoUsuario);
     }
 }

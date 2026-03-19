@@ -2,6 +2,7 @@ using EventPlusTorloni.WebAPI.BdContextEvent;
 using EventPlusTorloni.WebAPI.Interfaces;
 using EventPlusTorloni.WebAPI.Repositories;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi;
 using System.Runtime.CompilerServices;
 
@@ -15,8 +16,50 @@ builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 
 //Registrar as Repositories (Injeção de Dependência)
-builder.Services.AddScoped<ITipoEventoRepository,
-TipoEventoRepository > ();
+builder.Services.AddScoped<ITipoEventoRepository, TipoEventoRepository > ();
+
+builder.Services.AddScoped<ITipoUsuarioRepository, TipoUsuarioRepository>();
+
+builder.Services.AddScoped<IInstituicaoRepository, InstituicaoRepository>();
+
+builder.Services.AddScoped<IUsuariorRepository, UsuarioRepository>();
+
+builder.Services.AddScoped<IEventoRepository, EventoRepository>();
+
+builder.Services.AddScoped<IPresencaRepository, PresencaRepository>();
+
+
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultChallengeScheme = "JwtBearer";
+    options.DefaultChallengeScheme = "JwtBearer";
+})
+    .AddJwtBearer("JwtBearer", options =>
+{
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        //valida quem está solicitando
+        ValidateIssuer = true,
+
+        //valida quem está reclamando
+        ValidateAudience = true,
+
+        //define se o tempo de expiração será válido
+        ValidateLifetime = true,
+
+        //forma de criptografia e válida a chave de autenticação
+        IssuerSigningKey = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("eventplus-chave-autenticacao-webapi-dev")),
+
+        //valida o tempo de expiração do token
+        ClockSkew = TimeSpan.FromMinutes(5),
+
+        //nome do issuer (de onde está vindo)
+        ValidIssuer = "api_eventplus",
+
+        //nome do audience (para onde ele está indo)
+        ValidAudience = "api_eventplus"
+    };
+});
 
 //Adiciona Swagger
 builder.Services.AddEndpointsApiExplorer();

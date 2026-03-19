@@ -19,9 +19,9 @@ namespace EventPlusTorloni.WebAPI.Repositories
 
             if (InstituicaoBuscada != null)
             {
-                InstituicaoBuscada.NomeFantasia = instituicao.NomeFantasia;
-                InstituicaoBuscada.Cnpj = instituicao.Cnpj;
-                InstituicaoBuscada.Endereco = instituicao.Endereco;
+                InstituicaoBuscada.NomeFantasia = String.IsNullOrWhiteSpace(instituicao.NomeFantasia) ? InstituicaoBuscada.NomeFantasia : instituicao.NomeFantasia;
+                InstituicaoBuscada.Cnpj = String.IsNullOrWhiteSpace(instituicao.Cnpj) ? InstituicaoBuscada.Cnpj : instituicao.Cnpj;
+                InstituicaoBuscada.Endereco = String.IsNullOrWhiteSpace(instituicao.Endereco) ? InstituicaoBuscada.Endereco : instituicao.Endereco;
 
                 //O SaveChanges() detecta a mudança na propriedade "Título" automaticamente
                 _context.SaveChanges();

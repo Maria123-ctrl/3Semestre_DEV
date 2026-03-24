@@ -81,7 +81,11 @@ namespace EventPlusTorloni.WebAPI.Repositories
 
         public List<ComentarioEvento> ListarSomenteExibe(Guid IdEvento)
         {
-            throw new NotImplementedException();
+            return _context.ComentarioEventos
+            .Include(c => c.IdUsuarioNavigation)
+            .Include(c => c.IdEventoNavigation)
+            .Where(c => c.Exibe == true && c.IdEvento == IdEvento)
+            .ToList();
         }
     }
 }

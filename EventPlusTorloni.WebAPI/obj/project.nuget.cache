@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "/Dg+iT7C5A0=",
+  "dgSpecHash": "xFnatN/wBnc=",
   "success": true,
   "projectFilePath": "C:\\Users\\43180121823\\Desktop\\3Semestre_DEV\\EventPlusTorloni.WebAPI\\EventPlusTorloni.WebAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\43180121823\\.nuget\\packages\\azure.ai.contentsafety\\1.0.0\\azure.ai.contentsafety.1.0.0.nupkg.sha512",
     "C:\\Users\\43180121823\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\43180121823\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
     "C:\\Users\\43180121823\\.nuget\\packages\\bcrypt.net-next\\4.1.0\\bcrypt.net-next.4.1.0.nupkg.sha512",

@@ -1,3 +1,4 @@
+using Azure.AI.ContentSafety;
 using EventPlusTorloni.WebAPI.BdContextEvent;
 using EventPlusTorloni.WebAPI.Interfaces;
 using EventPlusTorloni.WebAPI.Repositories;
@@ -7,6 +8,13 @@ using Microsoft.OpenApi;
 using System.Runtime.CompilerServices;
 
 var builder = WebApplication.CreateBuilder(args);
+
+var endpoint = "";
+var apiKey = "";
+
+
+var client = new ContentSafetyClient(new Uri(endpoint), new Azure.AzureKeyCredential(apiKey));
+builder.Services.AddSingleton(client);
 
 builder.Services.AddDbContext<EventContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
@@ -27,6 +35,8 @@ builder.Services.AddScoped<IUsuariorRepository, UsuarioRepository>();
 builder.Services.AddScoped<IEventoRepository, EventoRepository>();
 
 builder.Services.AddScoped<IPresencaRepository, PresencaRepository>();
+
+builder.Services.AddScoped<IComentarioEventoRepository, ComentarioEventoRepository>();
 
 
 builder.Services.AddAuthentication(options =>

@@ -1,4 +1,6 @@
-﻿using EventPlusTorloni.WebAPI.DTO;
+﻿using Azure;
+using Azure.AI.ContentSafety;
+using EventPlusTorloni.WebAPI.DTO;
 using EventPlusTorloni.WebAPI.Interfaces;
 using EventPlusTorloni.WebAPI.Models;
 using EventPlusTorloni.WebAPI.Repositories;
@@ -11,35 +13,52 @@ namespace EventPlusTorloni.WebAPI.Controllers
     [ApiController]
     public class ComentarioEventoController : ControllerBase
     {
+        private readonly ContentSafetyClient _contentSafetyClient;
         private readonly IComentarioEventoRepository _comentarioEventoRepository;
 
-        public ComentarioEventoController(IComentarioEventoRepository comentarioEventoRepository)
+        public ComentarioEventoController( ContentSafetyClient contentSafetyClient, IComentarioEventoRepository comentarioEventoRepository)
         {
-           _comentarioEventoRepository = comentarioEventoRepository;
+            _contentSafetyClient = contentSafetyClient;
+            _comentarioEventoRepository = comentarioEventoRepository;
         }
 
         /// <summary>
-        /// Endpoint da API que faz chamada para o método de cadastrar um evento
+        /// Endpoint da API que cadastra e modera um comentário
         /// </summary>
-        /// <param name="evento">Dados do evento cadastrado</param>
-        /// <returns>Status code 201</returns>
+        /// <param name="evento">comentário a ser moderado</param>
+        /// <returns>Status code 201 e o comentário criado</returns>
         [HttpPost]
-        public IActionResult Cadastrar(ComentarioEventoDTO comentarioEvento)
+        public async Task<IActionResult> Cadastrar(ComentarioEventoDTO comentarioEvento)
         {
             try
             {
+                if (string.IsNullOrEmpty(comentarioEvento.Descricao))
+                {
+                    return BadRequest("O texto a ser moderado não pode estar vazio.");
+                }
+
+                // criar objeto de análise
+                var request =new AnalyzeTextOptions(comentarioEvento.Descricao);
+
+                // chamar a API do Azure Content Safety
+                Response<AnalyzeTextResult> response = await
+                    _contentSafetyClient.AnalyzeTextAsync(request);
+
+                // Verificar se o texto tem alguma severidade maior que 0
+                bool temConteudoImproprio = response.Value.CategoriesAnalysis.Any(comentarioEvento => comentarioEvento.Severity > 0);
+
                 var novoComentarioEvento = new ComentarioEvento
 
                 {
-                    IdComentarioEvento = Guid.NewGuid(),
+
                     Descricao = comentarioEvento.Descricao!,
-                    Exibe = comentarioEvento.Exibe!.Value,
+                    Exibe = !temConteudoImproprio,
                     DataComentarioEvento = comentarioEvento.DataComentrioEvento,
                     IdEvento = comentarioEvento.IdEvento,
                     IdUsuario = comentarioEvento.IdUsuario!
                 };
                 _comentarioEventoRepository.Cadastrar(novoComentarioEvento);
-                return StatusCode(201);
+                return StatusCode(201 , novoComentarioEvento);
             }
             catch (Exception erro)
             {
@@ -78,11 +97,17 @@ namespace EventPlusTorloni.WebAPI.Controllers
             }
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("{idUsuario}/{idEvento}")]
         public IActionResult BuscarPoridUsuario(Guid IdUsuario, Guid IdEvento)
         {
             try
             {
+                var comentario = _comentarioEventoRepository.BuscarPoridUsuario(IdUsuario, IdEvento);
+
+                if(comentario == null)
+                {
+                    return NotFound("Comentário não encontrado.");
+                }
                 return Ok(_comentarioEventoRepository.BuscarPoridUsuario(IdUsuario, IdEvento));
             }
             catch (Exception erro)

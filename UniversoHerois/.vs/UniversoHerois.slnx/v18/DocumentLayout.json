@@ -1,0 +1,249 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\43180121823\\Desktop\\3Semestre_DEV\\UniversoHerois\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E3108C34-7C01-44F0-9578-A029C1E04F72}|UniversoHerois.csproj|c:\\users\\43180121823\\desktop\\3semestre_dev\\universoherois\\repositories\\equiperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3108C34-7C01-44F0-9578-A029C1E04F72}|UniversoHerois.csproj|solutionrelative:repositories\\equiperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3108C34-7C01-44F0-9578-A029C1E04F72}|UniversoHerois.csproj|c:\\users\\43180121823\\desktop\\3semestre_dev\\universoherois\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3108C34-7C01-44F0-9578-A029C1E04F72}|UniversoHerois.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3108C34-7C01-44F0-9578-A029C1E04F72}|UniversoHerois.csproj|c:\\users\\43180121823\\desktop\\3semestre_dev\\universoherois\\dto\\equipedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3108C34-7C01-44F0-9578-A029C1E04F72}|UniversoHerois.csproj|solutionrelative:dto\\equipedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3108C34-7C01-44F0-9578-A029C1E04F72}|UniversoHerois.csproj|c:\\users\\43180121823\\desktop\\3semestre_dev\\universoherois\\repositories\\missaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3108C34-7C01-44F0-9578-A029C1E04F72}|UniversoHerois.csproj|solutionrelative:repositories\\missaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3108C34-7C01-44F0-9578-A029C1E04F72}|UniversoHerois.csproj|c:\\users\\43180121823\\desktop\\3semestre_dev\\universoherois\\repositories\\heroirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3108C34-7C01-44F0-9578-A029C1E04F72}|UniversoHerois.csproj|solutionrelative:repositories\\heroirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3108C34-7C01-44F0-9578-A029C1E04F72}|UniversoHerois.csproj|c:\\users\\43180121823\\desktop\\3semestre_dev\\universoherois\\controller\\heroicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3108C34-7C01-44F0-9578-A029C1E04F72}|UniversoHerois.csproj|solutionrelative:controller\\heroicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3108C34-7C01-44F0-9578-A029C1E04F72}|UniversoHerois.csproj|c:\\users\\43180121823\\desktop\\3semestre_dev\\universoherois\\controller\\equipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3108C34-7C01-44F0-9578-A029C1E04F72}|UniversoHerois.csproj|solutionrelative:controller\\equipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3108C34-7C01-44F0-9578-A029C1E04F72}|UniversoHerois.csproj|c:\\users\\43180121823\\desktop\\3semestre_dev\\universoherois\\controller\\missaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3108C34-7C01-44F0-9578-A029C1E04F72}|UniversoHerois.csproj|solutionrelative:controller\\missaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3108C34-7C01-44F0-9578-A029C1E04F72}|UniversoHerois.csproj|c:\\users\\43180121823\\desktop\\3semestre_dev\\universoherois\\interfaces\\imissaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3108C34-7C01-44F0-9578-A029C1E04F72}|UniversoHerois.csproj|solutionrelative:interfaces\\imissaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3108C34-7C01-44F0-9578-A029C1E04F72}|UniversoHerois.csproj|c:\\users\\43180121823\\desktop\\3semestre_dev\\universoherois\\interfaces\\iheroirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3108C34-7C01-44F0-9578-A029C1E04F72}|UniversoHerois.csproj|solutionrelative:interfaces\\iheroirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3108C34-7C01-44F0-9578-A029C1E04F72}|UniversoHerois.csproj|c:\\users\\43180121823\\desktop\\3semestre_dev\\universoherois\\interfaces\\iequiperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3108C34-7C01-44F0-9578-A029C1E04F72}|UniversoHerois.csproj|solutionrelative:interfaces\\iequiperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3108C34-7C01-44F0-9578-A029C1E04F72}|UniversoHerois.csproj|c:\\users\\43180121823\\desktop\\3semestre_dev\\universoherois\\dto\\missaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3108C34-7C01-44F0-9578-A029C1E04F72}|UniversoHerois.csproj|solutionrelative:dto\\missaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3108C34-7C01-44F0-9578-A029C1E04F72}|UniversoHerois.csproj|c:\\users\\43180121823\\desktop\\3semestre_dev\\universoherois\\dto\\heroidto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3108C34-7C01-44F0-9578-A029C1E04F72}|UniversoHerois.csproj|solutionrelative:dto\\heroidto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\43180121823\\Desktop\\3Semestre_DEV\\UniversoHerois\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\43180121823\\Desktop\\3Semestre_DEV\\UniversoHerois\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T12:15:09.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EquipeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\43180121823\\Desktop\\3Semestre_DEV\\UniversoHerois\\Repositories\\EquipeRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\EquipeRepository.cs",
+              "ToolTip": "C:\\Users\\43180121823\\Desktop\\3Semestre_DEV\\UniversoHerois\\Repositories\\EquipeRepository.cs",
+              "RelativeToolTip": "Repositories\\EquipeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T11:33:32.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HeroiRepository.cs",
+              "DocumentMoniker": "C:\\Users\\43180121823\\Desktop\\3Semestre_DEV\\UniversoHerois\\Repositories\\HeroiRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\HeroiRepository.cs",
+              "ToolTip": "C:\\Users\\43180121823\\Desktop\\3Semestre_DEV\\UniversoHerois\\Repositories\\HeroiRepository.cs",
+              "RelativeToolTip": "Repositories\\HeroiRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T11:33:00.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MissaoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\43180121823\\Desktop\\3Semestre_DEV\\UniversoHerois\\Repositories\\MissaoRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\MissaoRepository.cs",
+              "ToolTip": "C:\\Users\\43180121823\\Desktop\\3Semestre_DEV\\UniversoHerois\\Repositories\\MissaoRepository.cs",
+              "RelativeToolTip": "Repositories\\MissaoRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T11:33:11.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EquipeDTO.cs",
+              "DocumentMoniker": "C:\\Users\\43180121823\\Desktop\\3Semestre_DEV\\UniversoHerois\\DTO\\EquipeDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\EquipeDTO.cs",
+              "ToolTip": "C:\\Users\\43180121823\\Desktop\\3Semestre_DEV\\UniversoHerois\\DTO\\EquipeDTO.cs",
+              "RelativeToolTip": "DTO\\EquipeDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T11:33:46.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HeroiController.cs",
+              "DocumentMoniker": "C:\\Users\\43180121823\\Desktop\\3Semestre_DEV\\UniversoHerois\\Controller\\HeroiController.cs",
+              "RelativeDocumentMoniker": "Controller\\HeroiController.cs",
+              "ToolTip": "C:\\Users\\43180121823\\Desktop\\3Semestre_DEV\\UniversoHerois\\Controller\\HeroiController.cs",
+              "RelativeToolTip": "Controller\\HeroiController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T11:31:09.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EquipeController.cs",
+              "DocumentMoniker": "C:\\Users\\43180121823\\Desktop\\3Semestre_DEV\\UniversoHerois\\Controller\\EquipeController.cs",
+              "RelativeDocumentMoniker": "Controller\\EquipeController.cs",
+              "ToolTip": "C:\\Users\\43180121823\\Desktop\\3Semestre_DEV\\UniversoHerois\\Controller\\EquipeController.cs",
+              "RelativeToolTip": "Controller\\EquipeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T11:31:24.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MissaoController.cs",
+              "DocumentMoniker": "C:\\Users\\43180121823\\Desktop\\3Semestre_DEV\\UniversoHerois\\Controller\\MissaoController.cs",
+              "RelativeDocumentMoniker": "Controller\\MissaoController.cs",
+              "ToolTip": "C:\\Users\\43180121823\\Desktop\\3Semestre_DEV\\UniversoHerois\\Controller\\MissaoController.cs",
+              "RelativeToolTip": "Controller\\MissaoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T11:31:41.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IMissaoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\43180121823\\Desktop\\3Semestre_DEV\\UniversoHerois\\Interfaces\\IMissaoRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IMissaoRepository.cs",
+              "ToolTip": "C:\\Users\\43180121823\\Desktop\\3Semestre_DEV\\UniversoHerois\\Interfaces\\IMissaoRepository.cs",
+              "RelativeToolTip": "Interfaces\\IMissaoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T11:32:37.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IHeroiRepository.cs",
+              "DocumentMoniker": "C:\\Users\\43180121823\\Desktop\\3Semestre_DEV\\UniversoHerois\\Interfaces\\IHeroiRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IHeroiRepository.cs",
+              "ToolTip": "C:\\Users\\43180121823\\Desktop\\3Semestre_DEV\\UniversoHerois\\Interfaces\\IHeroiRepository.cs",
+              "RelativeToolTip": "Interfaces\\IHeroiRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T11:32:12.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IEquipeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\43180121823\\Desktop\\3Semestre_DEV\\UniversoHerois\\Interfaces\\IEquipeRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IEquipeRepository.cs",
+              "ToolTip": "C:\\Users\\43180121823\\Desktop\\3Semestre_DEV\\UniversoHerois\\Interfaces\\IEquipeRepository.cs",
+              "RelativeToolTip": "Interfaces\\IEquipeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T11:32:24.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MissaoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\43180121823\\Desktop\\3Semestre_DEV\\UniversoHerois\\DTO\\MissaoDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\MissaoDTO.cs",
+              "ToolTip": "C:\\Users\\43180121823\\Desktop\\3Semestre_DEV\\UniversoHerois\\DTO\\MissaoDTO.cs",
+              "RelativeToolTip": "DTO\\MissaoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T11:33:57.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HeroiDTO.cs",
+              "DocumentMoniker": "C:\\Users\\43180121823\\Desktop\\3Semestre_DEV\\UniversoHerois\\DTO\\HeroiDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\HeroiDTO.cs",
+              "ToolTip": "C:\\Users\\43180121823\\Desktop\\3Semestre_DEV\\UniversoHerois\\DTO\\HeroiDTO.cs",
+              "RelativeToolTip": "DTO\\HeroiDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T11:34:11.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
